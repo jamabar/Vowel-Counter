@@ -12,7 +12,7 @@ public class Main {
 
         for (int i = 0; i<sentence.length(); i++) {
             char ch = sentence.charAt(i);
-            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'u' || ch == 'o') {
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'u' || ch == 'o' || ch == 'y') {
                 count ++;
             }
 
